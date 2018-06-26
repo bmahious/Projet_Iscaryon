@@ -1,63 +1,369 @@
-/*
-Error: File to import not found or unreadable: partials/zakera.
-        on line 6 of style.scss
-
-1: @import "global/reset";
-2: @import "global/variables";
-3: @import "global/fonts";
-4: @import "forsize/responsive";
-5: @import "partials/iscaryon";
-6: @import "partials/zakera";
-7: 
-8: 
-9: body {
-10:   font-family: 'Montserrat', sans-serif;
-11:   font-size: 16px;
-
-Backtrace:
-style.scss:6
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:67:in `rescue in import'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:45:in `import'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:320:in `block in watch'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: partials/zakera.\A         on line 6 of style.scss\A \A 1: @import \"global/reset\";\A 2: @import \"global/variables\";\A 3: @import \"global/fonts\";\A 4: @import \"forsize/responsive\";\A 5: @import \"partials/iscaryon\";\A 6: @import \"partials/zakera\";\A 7: \A 8: \A 9: body {\A 10:   font-family: 'Montserrat', sans-serif;\A 11:   font-size: 16px;"; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'Harriet Display';
+  src: url("../assets/fonts/Harriet-Display-Light.woff") format("woff");
+  font-weight: 200;
+  font-style: normal; }
+@font-face {
+  font-family: 'Harriet Display';
+  src: url("../assets/fonts/Harriet-Display-Regular.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Harriet Display';
+  src: url("../assets/fonts/HarrietDisplay-Medium.woff2") format("woff2"), url("../assets/fonts/HarrietDisplay-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'Harriet Display';
+  src: url("../assets/fonts/HarrietDisplay-Bold.woff2") format("woff2"), url("../assets/fonts/HarrietDisplay-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'Harriet Display';
+  src: url("../assets/fonts/HarrietDisplay-Black.woff2") format("woff2"), url("../assets/fonts/HarrietDisplay-Black.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'Playfair';
+  src: url("./assets/fonts/PlayfairDisplay-Regular.otf") format("truetype");
+  font-weight: 300; }
+@font-face {
+  font-family: 'Playfair';
+  src: url("./assets/fonts/PlayfairDisplay-Bold.otf") format("truetype");
+  font-weight: 400; }
+@font-face {
+  font-family: 'Playfair';
+  src: url("./assets/fonts/PlayfairDisplay-Black.otf") format("truetype");
+  font-weight: 500; }
+@font-face {
+  font-family: 'Ailerons Typeface';
+  src: url("../assets/fonts/Ailerons-Typeface.otf") format("truetype");
+  font-weight: 300; }
+@font-face {
+  font-family: 'Ailerons Typeface';
+  src: url("../assets/fonts/Ailerons-Typeface.otf") format("truetype");
+  font-weight: 300; }
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../assets/fonts/ubuntu_light.otf") format("truetype");
+  font-weight: 300; }
+.Zakera {
+  overflow: hidden; }
+  .Zakera-image {
+    width: 420px;
+    height: 190px;
+    background-color: #fff;
+    text-align: center;
+    background-image: url("../assets/img/zakera.jpg");
+    background-size: cover;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15%; }
+    @media only screen and (min-width: 600px) {
+      .Zakera-image {
+        width: 500px;
+        height: 230px;
+        margin-top: 14%; } }
+    @media only screen and (min-width: 800px) {
+      .Zakera-image {
+        width: 550px;
+        height: 260px;
+        margin-top: 12%; } }
+    @media only screen and (min-width: 1000px) {
+      .Zakera-image {
+        width: 650px;
+        height: 270px;
+        margin-top: 12%;
+        display: flex-start; } }
+    @media only screen and (min-width: 1200px) {
+      .Zakera-image {
+        width: 550px;
+        height: 320px;
+        margin-top: 8%;
+        margin-left: 11%; } }
+  .Zakera-titleContent {
+    padding: 1em; }
+  .Zakera-titleContentOne {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Ailerons Typeface';
+    font-size: 20px; }
+    @media only screen and (min-width: 600px) {
+      .Zakera-titleContentOne {
+        font-size: 23px; } }
+    @media only screen and (min-width: 800px) {
+      .Zakera-titleContentOne {
+        font-size: 27px; } }
+  .Zakera-text {
+    margin: 0 auto;
+    margin-top: 5%; }
+  .Zakera-textContent {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'Ubuntu';
+    line-height: 20px; }
+    @media only screen and (min-width: 600px) {
+      .Zakera-textContent {
+        font-size: 18px; } }
+    @media only screen and (min-width: 600px) {
+      .Zakera-textContent {
+        font-size: 22SSpx; } }
+
+.Page-title {
+  color: white; }
+.Page-image {
+  width: 420px;
+  height: 190px;
+  background-color: #fff;
+  text-align: center;
+  background-image: url("../assets/img/zakera.jpg");
+  background-size: cover;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20%; }
+  @media only screen and (min-width: 600px) {
+    .Page-image {
+      width: 500px;
+      height: 230px;
+      margin-top: 14%; } }
+  @media only screen and (min-width: 800px) {
+    .Page-image {
+      width: 550px;
+      height: 260px;
+      margin-top: 12%; } }
+  @media only screen and (min-width: 1000px) {
+    .Page-image {
+      width: 650px;
+      height: 270px;
+      margin-top: 12%;
+      display: flex-start; } }
+  @media only screen and (min-width: 1200px) {
+    .Page-image {
+      width: 550px;
+      height: 320px;
+      margin-top: 8%;
+      margin-left: 11%; } }
+.Page-titleContent {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Ailerons Typeface';
+  font-size: 23px;
+  line-height: 28px;
+  margin-top: 13%; }
+  @media only screen and (min-width: 600px) {
+    .Page-titleContent {
+      font-size: 23px; } }
+  @media only screen and (min-width: 800px) {
+    .Page-titleContent {
+      font-size: 27px; } }
+.Page-titleContentOne1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Ailerons Typeface';
+  font-size: 20px; }
+  @media only screen and (min-width: 600px) {
+    .Page-titleContentOne1 {
+      font-size: 23px; } }
+  @media only screen and (min-width: 800px) {
+    .Page-titleContentOne1 {
+      font-size: 27px; } }
+.Page-text {
+  margin: 0 auto;
+  margin-top: 5%; }
+.Page-textContent {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: 'Ubuntu';
+  line-height: 25px; }
+  @media only screen and (min-width: 600px) {
+    .Page-textContent {
+      font-size: 18px; } }
+  @media only screen and (min-width: 600px) {
+    .Page-textContent {
+      font-size: 22px; } }
+.Page-titleTwo {
+  color: white; }
+.Page-imageTwo {
+  width: 420px;
+  height: 190px;
+  background-color: #fff;
+  text-align: center;
+  background-image: url("../assets/img/future.jpg");
+  background-size: cover;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20%; }
+  @media only screen and (min-width: 600px) {
+    .Page-imageTwo {
+      width: 500px;
+      height: 230px;
+      margin-top: 14%; } }
+  @media only screen and (min-width: 800px) {
+    .Page-imageTwo {
+      width: 550px;
+      height: 260px;
+      margin-top: 12%; } }
+  @media only screen and (min-width: 1000px) {
+    .Page-imageTwo {
+      width: 650px;
+      height: 270px;
+      margin-top: 12%;
+      display: flex-start; } }
+  @media only screen and (min-width: 1200px) {
+    .Page-imageTwo {
+      width: 550px;
+      height: 320px;
+      margin-top: 8%;
+      margin-left: 11%; } }
+.Page-titleContentTwo {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Ailerons Typeface';
+  font-size: 23px;
+  line-height: 28px;
+  margin-top: 13%; }
+  @media only screen and (min-width: 600px) {
+    .Page-titleContentTwo {
+      font-size: 23px; } }
+  @media only screen and (min-width: 800px) {
+    .Page-titleContentTwo {
+      font-size: 27px; } }
+.Page-titleContentOne1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Ailerons Typeface';
+  font-size: 20px; }
+  @media only screen and (min-width: 600px) {
+    .Page-titleContentOne1 {
+      font-size: 23px; } }
+  @media only screen and (min-width: 800px) {
+    .Page-titleContentOne1 {
+      font-size: 27px; } }
+.Page-textTwo {
+  margin: 0 auto;
+  margin-top: 5%; }
+.Page-textContentTwo {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: 'Ubuntu';
+  line-height: 25px; }
+  @media only screen and (min-width: 600px) {
+    .Page-textContentTwo {
+      font-size: 18px; } }
+  @media only screen and (min-width: 600px) {
+    .Page-textContentTwo {
+      font-size: 22px; } }
+.Page-imageHobbies {
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/img/robot.jpg");
+  background-color: white;
+  background-size: cover; }
+  .Page-imageHobbies-paragraphe {
+    color: #FFFFFF;
+    margin: 1em auto;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-size: 20px; }
+  .Page-imageHobbies-parent {
+    display: flex;
+    justify-content: space-around;
+    margin: 6em auto; }
+.Page-imageHobbiesTwo {
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/img/future.jpg");
+  background-color: white;
+  background-size: cover; }
+.Page-imageHobbiesThree {
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/img/future2.jpg");
+  background-color: white;
+  background-size: cover; }
+.Page-imageHobbiesFour {
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/img/zakera.jpg");
+  background-color: white;
+  background-size: cover; }
+.Page-picture-parent {
+  width: 40%;
+  height: 30%; }
+  @media only screen and (min-width: 600px) {
+    .Page-picture-parent {
+      width: 45%;
+      height: 38%; } }
+  @media only screen and (min-width: 800px) {
+    .Page-picture-parent {
+      width: 45%;
+      height: 45%; } }
+  @media only screen and (min-width: 1000px) {
+    .Page-picture-parent {
+      width: 45%;
+      height: 50%; } }
+  @media only screen and (min-width: 1200px) {
+    .Page-picture-parent {
+      width: 45%;
+      height: 60%; } }
+  @media only screen and (min-width: 1300px) {
+    .Page-picture-parent {
+      width: 45%;
+      height: 70%; } }
+
+body {
+  background-image: url("../assets/img/space2.png"); }
+
+.mainContainer {
+  max-width: 1300px;
+  padding: 0 3em;
+  margin: 0 auto; }
+  @media (max-width: 1024px) {
+    .mainContainer {
+      padding: 0 2em;
+      margin: 0 auto; } }
+  @media (max-width: 960px) {
+    .mainContainer {
+      padding: 0 1em; } }
+  @media (max-width: 600px) {
+    .mainContainer {
+      padding: 0 1em; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -2,13 +2,12 @@
 @import "global/variables";
 @import "global/fonts";
 @import "forsize/responsive";
-@import "partials/iscaryon";
 @import "partials/zakera";
+@import "partials/page";
 
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  background-image: url("../assets/img/space2.png");
 }
 
 .mainContainer {
