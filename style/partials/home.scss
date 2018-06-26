@@ -1,0 +1,80 @@
+
+h1{
+  font-family: 'Ailerons Typeface';
+
+}
+p{
+  font-family: 'Ubuntu_Light';
+}
+.home{
+  z-index: 1;
+  &-content{
+    &-logo{
+      width: 80%;
+    display: flex;
+    justify-content: center;
+    }
+    &-img{
+      width:100vh;
+    }
+    &-title{
+      text-align: center;
+      color: #FFF;
+      font-size: 30px;
+      margin-top: 20px;
+      letter-spacing: 2px;
+
+      text-transform: uppercase;
+      &-span{
+        font-size: 30px;
+        line-height: normal;
+        font-weight: bolder;
+        font-stretch: extra-expanded;
+
+
+      }
+    }
+    &-bar{
+      background-color: #006A61;
+      width: 100px;
+      height: 1px;
+      position: relative;
+      left: 38%;
+      margin-top: 10px;
+
+    }
+    &-text{
+      font-size: 2vh;
+      margin-top: 20px;
+      text-align: center;
+
+    }
+    &-choice{
+      text-align: center;
+      color: #FFF;
+      font-size: 22px;
+      margin-top: 20px;
+    }
+    &-button{
+      display: flex;
+      justify-content: center;
+    margin: 30px;
+    &-1{
+  background: rgba(0, 106, 97, 0.3);
+   width: 120px;
+   height: 37px;
+   border: solid 0.5px  #006A61;
+   margin: 10px;
+   font-size: 14px;
+   color: #FFFFFF;
+   cursor: pointer;
+    }
+
+    }
+
+  }
+
+}
+.container{
+  margin: 0 auto;
+}

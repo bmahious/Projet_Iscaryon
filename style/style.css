@@ -72,6 +72,14 @@ table {
   font-family: 'Playfair';
   src: url("./assets/fonts/PlayfairDisplay-Black.otf") format("truetype");
   font-weight: 500; }
+@font-face {
+  font-family: 'Ailerons Typeface';
+  src: url("../assets/fonts/Ailerons-Typeface.otf") format("truetype");
+  font-weight: 500; }
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../assets/fonts/Ubuntu_Light.ttf") format("truetype");
+  font-weight: 500; }
 .Iscaryon {
   background-color: orange; }
   .Iscaryon_para {
@@ -126,6 +134,101 @@ p {
     cursor: pointer;
     color: #fff;
     padding-left: 60px; }
+
+h1 {
+  font-family: 'Ailerons Typeface'; }
+
+p {
+  font-family: 'Ubuntu_Light'; }
+
+.home {
+  z-index: 1; }
+  .home-content-logo {
+    width: 80%;
+    display: flex;
+    justify-content: center; }
+  .home-content-img {
+    width: 100vh; }
+  .home-content-title {
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+    .home-content-title-span {
+      font-size: 30px;
+      line-height: normal;
+      font-weight: bolder;
+      font-stretch: extra-expanded; }
+  .home-content-bar {
+    background-color: #006A61;
+    width: 100px;
+    height: 1px;
+    position: relative;
+    left: 38%;
+    margin-top: 10px; }
+  .home-content-text {
+    font-size: 2vh;
+    margin-top: 20px;
+    text-align: center; }
+  .home-content-choice {
+    text-align: center;
+    color: #FFF;
+    font-size: 22px;
+    margin-top: 20px; }
+  .home-content-button {
+    display: flex;
+    justify-content: center;
+    margin: 30px; }
+    .home-content-button-1 {
+      background: rgba(0, 106, 97, 0.3);
+      width: 120px;
+      height: 37px;
+      border: solid 0.5px  #006A61;
+      margin: 10px;
+      font-size: 14px;
+      color: #FFFFFF;
+      cursor: pointer; }
+
+.container {
+  margin: 0 auto; }
+
+.leisure {
+  margin: 0 auto;
+  padding: 1rem; }
+  .leisure-content {
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    margin-top: 30px; }
+    .leisure-content-img {
+      width: 90%;
+      margin: 0 auto;
+      height: auto; }
+      .leisure-content-img-logo {
+        width: 100%; }
+    .leisure-content-text {
+      margin-top: 30px;
+      text-transform: uppercase; }
+      .leisure-content-text-title {
+        margin-top: 30px; }
+      .leisure-content-text-description {
+        margin-top: 30px; }
+    .leisure-content-choice-one {
+      display: flex;
+      justify-content: space-between; }
+    .leisure-content-choice-text {
+      margin-top: 30px; }
+    .leisure-content-choice-img {
+      width: 40%;
+      height: auto;
+      text-align: center;
+      margin-top: 30px;
+      margin: 0 auto; }
+      .leisure-content-choice-img-logo {
+        width: 100%;
+        margin-top: 10px; }
 
 body {
   font-family: 'Montserrat', sans-serif;
