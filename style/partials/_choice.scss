@@ -1,0 +1,33 @@
+
+.choice{
+  z-index: 1;
+
+margin:0 auto;
+  padding: 40 0px;
+  &:last-child{
+
+  }
+  &-content{
+
+
+    &-input{
+      margin: 13px;
+    }
+
+}
+&-input{
+  width: 269px;
+  background: rgba(0, 106, 97, 0.3);
+  opacity: 25%;
+  height: 51px;
+  font-size: 20px;
+  border: solid 1px  #006A61;
+  cursor: pointer;
+  color: #fff;
+  padding-left: 60px;
+  }
+  &-input:hover{
+
+  }
+
+}

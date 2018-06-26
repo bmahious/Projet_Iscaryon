@@ -3,11 +3,15 @@
 @import "global/fonts";
 @import "forsize/responsive";
 @import "partials/iscaryon";
+@import "partials/way";
+@import "partials/choice";
+
 
 
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  background-image: url('../assets/img/spaceBlack.png')
 }
 
 .mainContainer {

@@ -77,9 +77,60 @@ table {
   .Iscaryon_para {
     color: red; }
 
+.way {
+  margin: 0 auto; }
+  .way-content {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin: 0;
+    align-items: center; }
+  .way-contentOne {
+    width: 31px;
+    height: 31px;
+    border: solid 1px;
+    text-align: center;
+    border-color: #8B8787; }
+  .way-bar {
+    width: 40.1px;
+    height: 2px;
+    background-color: #FFF; }
+
+p {
+  margin-top: 5px;
+  font-size: 19px;
+  color: #FFF; }
+
+.row {
+  justify-content: center; }
+
+.one {
+  opacity: 25%;
+  border-color: #006A61;
+  background: rgba(0, 106, 97, 0.3);
+  opacity: 25%; }
+
+.choice {
+  z-index: 1;
+  margin: 0 auto;
+  padding: 40 0px; }
+  .choice-content-input {
+    margin: 13px; }
+  .choice-input {
+    width: 269px;
+    background: rgba(0, 106, 97, 0.3);
+    opacity: 25%;
+    height: 51px;
+    font-size: 20px;
+    border: solid 1px  #006A61;
+    cursor: pointer;
+    color: #fff;
+    padding-left: 60px; }
+
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  background-image: url("../assets/img/spaceBlack.png"); }
 
 .mainContainer {
   max-width: 1300px;
