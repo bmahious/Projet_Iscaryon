@@ -8,92 +8,237 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote, q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before, blockquote:after {
-  content: '';
-  content: none; }
+  content: "";
+  content: none;
+}
 
 q:before, q:after {
-  content: '';
-  content: none; }
+  content: "";
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 @font-face {
-  font-family: 'Harriet Display';
+  font-family: "Harriet Display";
   src: url("../assets/fonts/Harriet-Display-Light.woff") format("woff");
   font-weight: 200;
-  font-style: normal; }
+  font-style: normal;
+}
 @font-face {
-  font-family: 'Harriet Display';
+  font-family: "Harriet Display";
   src: url("../assets/fonts/Harriet-Display-Regular.woff") format("woff");
   font-weight: 300;
-  font-style: normal; }
+  font-style: normal;
+}
 @font-face {
-  font-family: 'Harriet Display';
+  font-family: "Harriet Display";
   src: url("../assets/fonts/HarrietDisplay-Medium.woff2") format("woff2"), url("../assets/fonts/HarrietDisplay-Medium.woff") format("woff");
   font-weight: 500;
-  font-style: normal; }
+  font-style: normal;
+}
 @font-face {
-  font-family: 'Harriet Display';
+  font-family: "Harriet Display";
   src: url("../assets/fonts/HarrietDisplay-Bold.woff2") format("woff2"), url("../assets/fonts/HarrietDisplay-Bold.woff") format("woff");
   font-weight: 600;
-  font-style: normal; }
+  font-style: normal;
+}
 @font-face {
-  font-family: 'Harriet Display';
+  font-family: "Harriet Display";
   src: url("../assets/fonts/HarrietDisplay-Black.woff2") format("woff2"), url("../assets/fonts/HarrietDisplay-Black.woff") format("woff");
   font-weight: 700;
-  font-style: normal; }
+  font-style: normal;
+}
 @font-face {
-  font-family: 'Playfair';
+  font-family: "Playfair";
   src: url("./assets/fonts/PlayfairDisplay-Regular.otf") format("truetype");
-  font-weight: 300; }
+  font-weight: 300;
+}
 @font-face {
-  font-family: 'Playfair';
+  font-family: "Playfair";
   src: url("./assets/fonts/PlayfairDisplay-Bold.otf") format("truetype");
-  font-weight: 400; }
+  font-weight: 400;
+}
 @font-face {
-  font-family: 'Playfair';
+  font-family: "Playfair";
   src: url("./assets/fonts/PlayfairDisplay-Black.otf") format("truetype");
-  font-weight: 500; }
-.Iscaryon {
-  background-color: orange; }
-  .Iscaryon_para {
-    color: red; }
-
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Ailerons Typeface";
+  src: url("../assets/fonts/Ailerons-Typeface.otf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../assets/fonts/Ubuntu_bold.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../assets/fonts/Ubuntu_Light.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../assets/fonts/Ubuntu_Regular.ttf") format("truetype");
+  font-weight: 300;
+}
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px; }
+  background-image: url("../assets/img/space.png");
+  color: #FFFF;
+}
+
+h1 {
+  font-family: "Ailerons Typeface";
+  font-size: 24px;
+}
+
+h2 {
+  font-family: "Ailerons Typeface";
+  font-size: 20px;
+}
+
+p {
+  font-family: "Ubuntu";
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+@media (max-width: 600px) {
+  .Homepage {
+    padding: 0 1em;
+    display: flex;
+    margin-top: 30%;
+    margin-bottom: 10%;
+  }
+  .Homepage-Subtitle {
+    margin-top: 30%;
+  }
+  .Homepage-Choice {
+    width: 270px;
+    height: 37px;
+    margin: 0 auto;
+    padding: 20%;
+  }
+}
+
+.Information {
+  display: flex;
+  margin-top: 10%;
+}
+.Information-Content {
+  margin: 0 auto;
+}
+.Information h1 {
+  margin-left: 15%;
+  margin-bottom: 30%;
+}
+.Information-FirstName {
+  margin-bottom: 10%;
+}
+.Information-Name {
+  margin-bottom: 10%;
+}
+.Information-Mail {
+  margin-bottom: 10%;
+}
+
+h1 {
+  margin-left: 15%;
+  margin-bottom: 30%;
+}
+
+span {
+  font-size: 16px;
+}
+
+.Reservation {
+  display: flex;
+  margin-top: 10%;
+}
+.Reservation-Content {
+  margin: 0 auto;
+}
+.Reservation-Color {
+  color: #006A61;
+}
+.Reservation-Icone {
+  float: right;
+  margin-top: 5%;
+}
 
 .mainContainer {
   max-width: 1300px;
   padding: 0 3em;
-  margin: 0 auto; }
-  @media (max-width: 1024px) {
-    .mainContainer {
-      padding: 0 2em;
-      margin: 0 auto; } }
-  @media (max-width: 960px) {
-    .mainContainer {
-      padding: 0 1em; } }
-  @media (max-width: 600px) {
-    .mainContainer {
-      padding: 0 1em; } }
+  margin: 0 auto;
+}
+@media (max-width: 1024px) {
+  .mainContainer {
+    padding: 0 2em;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 960px) {
+  .mainContainer {
+    padding: 0 1em;
+  }
+}
+@media (max-width: 600px) {
+  .mainContainer {
+    padding: 0 1em;
+  }
+}
+
+h1 {
+  font-family: "Ailerons Typeface";
+  font-size: 27px;
+}
+
+h2 {
+  font-family: "Ailerons Typeface";
+  font-size: 27px;
+}
+
+p {
+  font-family: "Ubuntu";
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+button {
+  background: rgba(0, 106, 97, 0.3);
+  width: 370px;
+  height: 55px;
+  border: solid 0.5px #006A61;
+  margin: 10px;
+  font-size: 14px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=style.css.map */

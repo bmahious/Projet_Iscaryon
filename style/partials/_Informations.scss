@@ -1,0 +1,21 @@
+.Information{
+display: flex;
+margin-top: 10%;
+&-Content{
+  margin: 0 auto;
+}
+  h1{
+    margin-left: 15%;
+    margin-bottom: 30%;
+  }
+    &-FirstName{
+      margin-bottom: 10%;
+    }
+    &-Name{
+        margin-bottom: 10%;
+    }
+    &-Mail{
+        margin-bottom: 10%;
+    }
+
+}

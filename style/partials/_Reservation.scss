@@ -1,0 +1,24 @@
+h1{
+  margin-left: 15%;
+  margin-bottom: 30%;
+}
+span{
+  font-size: 16px;
+}
+.Reservation{
+  display:flex;
+  margin-top: 10%;
+  &-Content{
+    margin: 0 auto;
+  }
+  &-Item{
+  
+  }
+  &-Color{
+    color: $green;
+  }
+  &-Icone{
+    float: right;
+    margin-top: 5%;
+ }
+}
