@@ -17,7 +17,7 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/bin/sass:13:in `<top (required
 C:/Ruby24-x64/bin/sass:23:in `load'
 C:/Ruby24-x64/bin/sass:23:in `<main>'
 */
-body:before {
+/* body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - style.scss"; }
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - style.scss"; } */
