@@ -1,6 +1,12 @@
 .Page{
+  &-container{
+    @media only screen and (min-width: 1000px) {
+     display: flex;
+    }
+  }
   &-title{
-    color: white;
+    color: $white;
+    margin-top: 6%;
   }
   &-image{
 
@@ -25,9 +31,9 @@
     }
     @media only screen and (min-width: 1000px) {
       width: 650px;
-      height: 270px;
+      height: 350px;
       margin-top: 12%;
-      display: flex-start;
+      position: relative;
     }
     @media only screen and (min-width: 1200px) {
       width: 550px;
@@ -66,11 +72,11 @@
       font-size: 27px;
     }
   }
-
   &-text{
     margin: 0 auto;
     margin-top: 5%;
-
+    margin-left: 5%;
+    margin-right: 5%;
   }
   &-textContent{
     color: $white;
@@ -87,10 +93,10 @@
 //  SECOND CONTAINER
 
   &-titleTwo{
-    color: white;
+    color: $white;
+    margin-top: 6%;
   }
   &-imageTwo{
-
     width: 420px;
     height: 190px;
     background-color: #fff;
@@ -114,7 +120,6 @@
       width: 650px;
       height: 270px;
       margin-top: 12%;
-      display: flex-start;
     }
     @media only screen and (min-width: 1200px) {
       width: 550px;
@@ -157,7 +162,8 @@
   &-textTwo{
     margin: 0 auto;
     margin-top: 5%;
-
+    margin-left: 5%;
+    margin-right: 5%;
   }
   &-textContentTwo{
     color: $white;
@@ -176,7 +182,7 @@
   &-imageHobbies{
     width: 100%;
     height: 100%;
-    background-image: url("../assets/img/robot.jpg");
+    background-image: url("../assets/img/Restaurant.jpg");
     background-color: white;
     background-size: cover;
     &-paragraphe{
@@ -195,21 +201,21 @@
   &-imageHobbiesTwo{
     width: 100%;
     height: 100%;
-    background-image: url("../assets/img/future.jpg");
+    background-image: url("../assets/img/Casino.jpg");
     background-color: white;
     background-size: cover;
    }
    &-imageHobbiesThree{
      width: 100%;
      height: 100%;
-     background-image: url("../assets/img/future2.jpg");
+     background-image: url("../assets/img/library.jpg");
      background-color: white;
      background-size: cover;
     }
     &-imageHobbiesFour{
       width: 100%;
       height: 100%;
-      background-image: url("../assets/img/zakera.jpg");
+      background-image: url("../assets/img/stade.jpg");
       background-color: white;
       background-size: cover;
      }
