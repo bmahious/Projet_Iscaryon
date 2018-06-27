@@ -2,11 +2,11 @@
 @import "global/variables";
 @import "global/fonts";
 @import "forsize/responsive";
-@import "partials/iscaryon";
-@import "partials/way";
-@import "partials/choice";
-@import "partials/home";
-@import "partials/leisure";
+@import "partials/Way";
+@import "partials/Choice";
+@import "partials/Home";
+@import "partials/Button";
+
 
 
 
@@ -14,11 +14,18 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   background-image:url('../assets/img/spaceBlack.png');
-
+}
+h1{
+  font-family: 'Ailerons Typeface';
 
 }
+p{
+  font-family: 'Ubuntu_Light';
+  font-size: 12px;
+  text-transform: uppercase;
+}
 
-.mainContainer {
+.container {
   max-width: 1300px;
   padding: 0 3em;
   margin: 0 auto;

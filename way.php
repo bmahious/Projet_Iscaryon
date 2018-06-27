@@ -1,28 +1,28 @@
 <?php include('header.php'); ?>
 
-<section class="way">
+<section class="Way">
   <div class="container">
     <div class="row">
-      <div class="way-content">
-        <div class="way-contentOne one">
+      <div class="Way-content">
+        <div class="Way-contentOne one">
           <p>1</p>
         </div>
-        <div class="way-bar">
+        <div class="Way-bar">
 
         </div>
-        <div class="way-contentOne">
+        <div class="Way-contentOne">
           <p>2</p>
         </div>
-        <div class="way-bar">
+        <div class="Way-bar">
 
         </div>
-        <div class="way-contentOne">
+        <div class="Way-contentOne">
           <p>3</p>
         </div>
-        <div class="way-bar">
+        <div class="Way-bar">
 
         </div>
-        <div class="way-contentOne">
+        <div class="Way-contentOne">
           <p>4</p>
         </div>
       </div>

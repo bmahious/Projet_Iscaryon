@@ -80,26 +80,21 @@ table {
   font-family: 'Ubuntu';
   src: url("../assets/fonts/Ubuntu_Light.ttf") format("truetype");
   font-weight: 500; }
-.Iscaryon {
-  background-color: orange; }
-  .Iscaryon_para {
-    color: red; }
-
-.way {
+.Way {
   margin: 0 auto; }
-  .way-content {
+  .Way-content {
     display: flex;
     justify-content: space-between;
     justify-content: center;
     margin: 0;
     align-items: center; }
-  .way-contentOne {
+  .Way-contentOne {
     width: 31px;
     height: 31px;
     border: solid 1px;
     text-align: center;
     border-color: #8B8787; }
-  .way-bar {
+  .Way-bar {
     width: 40.1px;
     height: 2px;
     background-color: #FFF; }
@@ -118,13 +113,13 @@ p {
   background: rgba(0, 106, 97, 0.3);
   opacity: 25%; }
 
-.choice {
+.Choice {
   z-index: 1;
   margin: 0 auto;
   padding: 40 0px; }
-  .choice-content-input {
+  .Choice-content-input {
     margin: 13px; }
-  .choice-input {
+  .Choice-input {
     width: 269px;
     background: rgba(0, 106, 97, 0.3);
     opacity: 25%;
@@ -135,119 +130,88 @@ p {
     color: #fff;
     padding-left: 60px; }
 
-h1 {
-  font-family: 'Ailerons Typeface'; }
-
-p {
-  font-family: 'Ubuntu_Light'; }
-
-.home {
+.Home {
   z-index: 1; }
-  .home-content-logo {
+  .Home-logo {
     width: 80%;
     display: flex;
     justify-content: center; }
-  .home-content-img {
+  .Home-img {
     width: 100vh; }
-  .home-content-title {
-    text-align: center;
-    color: #FFF;
-    font-size: 30px;
-    margin-top: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase; }
-    .home-content-title-span {
+  .Home-content {
+    margin-top: -50px; }
+    .Home-content-title {
+      text-align: center;
+      color: #FFF;
       font-size: 30px;
-      line-height: normal;
-      font-weight: bolder;
-      font-stretch: extra-expanded; }
-  .home-content-bar {
-    background-color: #006A61;
-    width: 100px;
-    height: 1px;
-    position: relative;
-    left: 38%;
-    margin-top: 10px; }
-  .home-content-text {
-    font-size: 2vh;
-    margin-top: 20px;
-    text-align: center; }
-  .home-content-choice {
-    text-align: center;
-    color: #FFF;
-    font-size: 22px;
-    margin-top: 20px; }
-  .home-content-button {
-    display: flex;
-    justify-content: center;
-    margin: 30px; }
-    .home-content-button-1 {
-      background: rgba(0, 106, 97, 0.3);
-      width: 120px;
-      height: 37px;
-      border: solid 0.5px  #006A61;
-      margin: 10px;
-      font-size: 14px;
-      color: #FFFFFF;
-      cursor: pointer; }
+      margin-top: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase; }
+      .Home-content-title-span {
+        font-size: 30px;
+        line-height: normal;
+        font-weight: bolder;
+        font-stretch: extra-expanded; }
+    .Home-content-bar {
+      background-color: #006A61;
+      width: 100px;
+      height: 1px;
+      position: relative;
+      left: 38%;
+      margin-top: 10px;
+      align-items: center; }
+    .Home-content-text {
+      margin-top: 20px;
+      text-align: center; }
+    .Home-content-Choice {
+      text-align: center;
+      color: #FFF;
+      font-size: 22px;
+      margin-top: 20px; }
+    .Home-content-button {
+      display: flex;
+      justify-content: center;
+      margin: 30px; }
 
 .container {
   margin: 0 auto; }
 
-.leisure {
-  margin: 0 auto;
-  padding: 1rem; }
-  .leisure-content {
-    text-align: center;
-    color: #FFF;
-    font-size: 20px;
-    margin-top: 30px; }
-    .leisure-content-img {
-      width: 90%;
-      margin: 0 auto;
-      height: auto; }
-      .leisure-content-img-logo {
-        width: 100%; }
-    .leisure-content-text {
-      margin-top: 30px;
-      text-transform: uppercase; }
-      .leisure-content-text-title {
-        margin-top: 30px; }
-      .leisure-content-text-description {
-        margin-top: 30px; }
-    .leisure-content-choice-one {
-      display: flex;
-      justify-content: space-between; }
-    .leisure-content-choice-text {
-      margin-top: 30px; }
-    .leisure-content-choice-img {
-      width: 40%;
-      height: auto;
-      text-align: center;
-      margin-top: 30px;
-      margin: 0 auto; }
-      .leisure-content-choice-img-logo {
-        width: 100%;
-        margin-top: 10px; }
+button {
+  background: rgba(0, 106, 97, 0.3);
+  width: 120px;
+  height: 37px;
+  border: solid 0.5px  #006A61;
+  margin: 10px;
+  font-size: 14px;
+  color: #FFFFFF;
+  cursor: pointer; }
 
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   background-image: url("../assets/img/spaceBlack.png"); }
 
-.mainContainer {
+h1 {
+  font-family: 'Ailerons Typeface'; }
+
+p {
+  font-family: 'Ubuntu_Light';
+  font-size: 12px;
+  text-transform: uppercase; }
+
+.container {
   max-width: 1300px;
   padding: 0 3em;
   margin: 0 auto; }
   @media (max-width: 1024px) {
-    .mainContainer {
+    .container {
       padding: 0 2em;
       margin: 0 auto; } }
   @media (max-width: 960px) {
-    .mainContainer {
+    .container {
       padding: 0 1em; } }
   @media (max-width: 600px) {
-    .mainContainer {
+    .container {
       padding: 0 1em; } }
 
 /*# sourceMappingURL=style.css.map */

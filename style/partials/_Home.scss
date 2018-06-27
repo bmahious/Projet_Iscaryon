@@ -1,22 +1,18 @@
 
-h1{
-  font-family: 'Ailerons Typeface';
 
-}
-p{
-  font-family: 'Ubuntu_Light';
-}
-.home{
+
+.Home{
   z-index: 1;
+  &-logo{
+    width: 80%;
+  display: flex;
+  justify-content: center;
+  }
+  &-img{
+    width:100vh;
+  }
   &-content{
-    &-logo{
-      width: 80%;
-    display: flex;
-    justify-content: center;
-    }
-    &-img{
-      width:100vh;
-    }
+ margin-top: -50px;
     &-title{
       text-align: center;
       color: #FFF;
@@ -41,15 +37,16 @@ p{
       position: relative;
       left: 38%;
       margin-top: 10px;
+      align-items: center;
 
     }
     &-text{
-      font-size: 2vh;
+
       margin-top: 20px;
       text-align: center;
 
     }
-    &-choice{
+    &-Choice{
       text-align: center;
       color: #FFF;
       font-size: 22px;
@@ -60,14 +57,7 @@ p{
       justify-content: center;
     margin: 30px;
     &-1{
-  background: rgba(0, 106, 97, 0.3);
-   width: 120px;
-   height: 37px;
-   border: solid 0.5px  #006A61;
-   margin: 10px;
-   font-size: 14px;
-   color: #FFFFFF;
-   cursor: pointer;
+
     }
 
     }
