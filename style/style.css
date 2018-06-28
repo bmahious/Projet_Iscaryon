@@ -84,74 +84,129 @@ table {
   font-family: 'Ubuntu';
   src: url("../assets/fonts/ubuntu_light.otf") format("truetype");
   font-weight: 300; }
-.Zakera {
-  overflow: hidden; }
+@media only screen and (min-width: 1000px) {
+  .Hotel-container {
+    display: flex; } }
+.Hotel-title {
+  color: #FFFFFF;
+  margin-top: 6%; }
+.Hotel-image {
+  width: 420px;
+  height: 190px;
+  background-color: #fff;
+  text-align: center;
+  background-image: url("../assets/img/hotel2.jpg");
+  background-size: cover;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20%; }
+  @media only screen and (min-width: 600px) {
+    .Hotel-image {
+      width: 500px;
+      height: 230px;
+      margin-top: 14%; } }
+  @media only screen and (min-width: 800px) {
+    .Hotel-image {
+      width: 550px;
+      height: 260px;
+      margin-top: 12%; } }
   @media only screen and (min-width: 1000px) {
-    .Zakera-container {
-      display: flex; } }
-  .Zakera-image {
-    width: 420px;
-    height: 190px;
-    background-color: #fff;
-    text-align: center;
-    background-image: url("../assets/img/zakera.jpg");
-    background-size: cover;
-    display: flex;
-    margin: 0 auto;
-    margin-top: 15%; }
-    @media only screen and (min-width: 600px) {
-      .Zakera-image {
-        width: 500px;
-        height: 230px;
-        margin-top: 14%; } }
-    @media only screen and (min-width: 800px) {
-      .Zakera-image {
-        width: 550px;
-        height: 260px;
-        margin-top: 12%; } }
-    @media only screen and (min-width: 1000px) {
-      .Zakera-image {
-        width: 650px;
-        height: 350px;
-        margin-top: 12%;
-        position: relative; } }
-    @media only screen and (min-width: 1200px) {
-      .Zakera-image {
-        width: 900px;
-        height: 400px;
-        margin-top: 8%;
-        margin-left: 11%;
-        margin: 5em auto; } }
-  .Zakera-title {
-    margin-top: 13%;
-    margin-right: 10%; }
-  .Zakera-titleContent {
-    padding: 1em; }
-  .Zakera-titleContentOne {
+    .Hotel-image {
+      width: 650px;
+      height: 350px;
+      margin-top: 12%;
+      position: relative; } }
+  @media only screen and (min-width: 1200px) {
+    .Hotel-image {
+      width: 550px;
+      height: 320px;
+      margin-top: 8%;
+      margin-left: 11%; } }
+.Hotel-titleContent {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Ailerons Typeface';
+  font-size: 23px;
+  line-height: 28px;
+  margin-top: 13%; }
+  @media only screen and (min-width: 600px) {
+    .Hotel-titleContent {
+      font-size: 23px; } }
+  @media only screen and (min-width: 800px) {
+    .Hotel-titleContent {
+      font-size: 27px; } }
+.Hotel-titleContentOne1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Ailerons Typeface';
+  font-size: 20px; }
+  @media only screen and (min-width: 600px) {
+    .Hotel-titleContentOne1 {
+      font-size: 23px; } }
+  @media only screen and (min-width: 800px) {
+    .Hotel-titleContentOne1 {
+      font-size: 27px; } }
+.Hotel-text {
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%; }
+.Hotel-textContent {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: 'Ubuntu';
+  line-height: 25px; }
+  @media only screen and (min-width: 600px) {
+    .Hotel-textContent {
+      font-size: 18px; } }
+  @media only screen and (min-width: 600px) {
+    .Hotel-textContent {
+      font-size: 22px; } }
+.Hotel-imageHobbies {
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/img/hotel4.jpg");
+  background-color: white;
+  background-size: cover; }
+  .Hotel-imageHobbies-paragraphe {
     color: #FFFFFF;
+    margin: 1em auto;
     text-align: center;
-    font-family: 'Ailerons Typeface';
-    font-size: 20px; }
-    @media only screen and (min-width: 600px) {
-      .Zakera-titleContentOne {
-        font-size: 23px; } }
-    @media only screen and (min-width: 800px) {
-      .Zakera-titleContentOne {
-        font-size: 27px; } }
-  .Zakera-text {
-    margin: 0 auto;
-    margin-top: 5%; }
-  .Zakera-textContent {
-    color: #FFFFFF;
-    font-size: 12px;
     font-family: 'Ubuntu';
-    line-height: 20px; }
-    @media only screen and (min-width: 600px) {
-      .Zakera-textContent {
-        font-size: 18px; } }
-    @media only screen and (min-width: 600px) {
-      .Zakera-textContent {
-        font-size: 22SSpx; } }
+    font-size: 20px; }
+  .Hotel-imageHobbies-parent {
+    display: flex;
+    justify-content: space-around;
+    margin: 6em auto; }
+.Hotel-imageHobbiesTwo {
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/img/hotel5.jpg");
+  background-color: white;
+  background-size: cover; }
+.Hotel-picture-parent {
+  width: 40%;
+  height: 30%; }
+  @media only screen and (min-width: 600px) {
+    .Hotel-picture-parent {
+      width: 45%;
+      height: 38%; } }
+  @media only screen and (min-width: 800px) {
+    .Hotel-picture-parent {
+      width: 45%;
+      height: 45%; } }
+  @media only screen and (min-width: 1000px) {
+    .Hotel-picture-parent {
+      width: 45%;
+      height: 50%; } }
+  @media only screen and (min-width: 1200px) {
+    .Hotel-picture-parent {
+      width: 45%;
+      height: 60%; } }
+  @media only screen and (min-width: 1300px) {
+    .Hotel-picture-parent {
+      width: 45%;
+      height: 70%; } }
 
 @media only screen and (min-width: 1000px) {
   .Page-container {
@@ -234,6 +289,16 @@ table {
 .Page-titleTwo {
   color: #FFFFFF;
   margin-top: 6%; }
+  @media only screen and (min-width: 1000px) {
+    .Page-titleTwo {
+      display: none; } }
+  .Page-titleTwo-hide {
+    color: #FFFFFF;
+    margin-top: 8%;
+    display: none; }
+    @media only screen and (min-width: 1000px) {
+      .Page-titleTwo-hide {
+        display: block; } }
 .Page-imageTwo {
   width: 420px;
   height: 190px;
@@ -317,28 +382,58 @@ table {
     text-align: center;
     font-family: 'Ubuntu';
     font-size: 20px; }
+  .Page-imageHobbies-description {
+    color: #FFFFFF;
+    padding: 3em;
+    display: none; }
+    @media only screen and (min-width: 1000px) {
+      .Page-imageHobbies-description {
+        font-size: 1.1em; } }
+    @media only screen and (min-width: 1200px) {
+      .Page-imageHobbies-description {
+        font-size: 1.3em; } }
   .Page-imageHobbies-parent {
     display: flex;
     justify-content: space-around;
     margin: 6em auto; }
+.Page-imageHobbies:hover .Page-imageHobbies-description {
+  display: block;
+  background-color: gray;
+  opacity: 0.8;
+  border-radius: 50% 20% / 10% 40%; }
 .Page-imageHobbiesTwo {
   width: 100%;
   height: 100%;
   background-image: url("../assets/img/Casino.jpg");
   background-color: white;
   background-size: cover; }
+.Page-imageHobbiesTwo:hover .Page-imageHobbies-description {
+  display: block;
+  background-color: gray;
+  opacity: 0.8;
+  border-radius: 50% 20% / 10% 40%; }
 .Page-imageHobbiesThree {
   width: 100%;
   height: 100%;
   background-image: url("../assets/img/library.jpg");
   background-color: white;
   background-size: cover; }
+.Page-imageHobbiesThree:hover .Page-imageHobbies-description {
+  display: block;
+  background-color: gray;
+  opacity: 0.8;
+  border-radius: 50% 20% / 10% 40%; }
 .Page-imageHobbiesFour {
   width: 100%;
   height: 100%;
   background-image: url("../assets/img/stade.jpg");
   background-color: white;
   background-size: cover; }
+.Page-imageHobbiesFour:hover .Page-imageHobbies-description {
+  display: block;
+  background-color: gray;
+  opacity: 0.8;
+  border-radius: 50% 20% / 10% 40%; }
 .Page-picture-parent {
   width: 40%;
   height: 30%; }
@@ -365,6 +460,9 @@ table {
 
 body {
   background-image: url("../assets/img/space2.png"); }
+
+p {
+  font-family: 'Ubuntu'; }
 
 .mainContainer {
   max-width: 1300px;

@@ -2,14 +2,16 @@
 @import "global/variables";
 @import "global/fonts";
 @import "forsize/responsive";
-@import "partials/zakera";
+@import "partials/hotel";
 @import "partials/hobbies";
 
 
 body {
   background-image: url("../assets/img/space2.png");
 }
-
+p{
+  font-family: 'Ubuntu';
+}
 .mainContainer {
   max-width: 1300px;
   padding: 0 3em;
